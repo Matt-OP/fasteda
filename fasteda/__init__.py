@@ -15,20 +15,17 @@ def fast_eda(df, target=None, correlation=True, pairplot=True, hist_box_plot=Tru
         # Head
         
         print(f"{Fore.GREEN}{Style.BRIGHT}DataFrame Head:{Style.RESET_ALL}")
-        print()
         display(df.head(3))
         
         # Tail
         
         print(f"{Fore.GREEN}{Style.BRIGHT}DataFrame Tail:{Style.RESET_ALL}")
-        print()
         display(df.tail(3))
         print("-" * 100)
         
         # Missing values
         
         print(f"{Fore.RED}{Style.BRIGHT}Missing values:{Style.RESET_ALL}")
-        print()
 
         null_cols = [i for i in df.columns if df[i].isna().sum() > 0]
         df0 = df[null_cols]
