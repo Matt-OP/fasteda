@@ -13,7 +13,7 @@ classifiers = [
  
 setup(
   name='fasteda',
-  version='0.0.2',
+  version='1.0.0',
   description='A module to get a quick overview of a DataFrame',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  
