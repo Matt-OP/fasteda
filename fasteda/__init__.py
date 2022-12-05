@@ -140,8 +140,7 @@ def fast_eda(df, target=None, correlation=True, pairplot=True, hist_box_plot=Tru
             print()
             
             for index, col in enumerate(num_cols):
-              #  if i == "Id":
-              #      pas    
+                
                 fig, (ax1, ax2) = plt.subplots(1, 2, figsize = (14, 6))
 
                 sns.histplot(df, x = df[col], kde = True, hue = target,
