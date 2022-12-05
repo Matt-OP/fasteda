@@ -1,0 +1,1 @@
+A module to get a quick overview of a DataFrame.
