@@ -2,11 +2,14 @@
 
 A python module that provides a quick way to overview a DataFrame.
 
-#### `!pip install fasteda`
 
-#### `from fasteda import fast_eda`
+```python
+!pip install fasteda
 
-#### `def fast_eda(df, target=None, correlation=True, pairplot=True, hist_box_plot=True, countplot=True):`
+from fasteda import fast_eda
+
+def fast_eda(df, target=None, correlation=True, pairplot=True, hist_box_plot=True, countplot=True):
+```
 
 Parameters:
 
