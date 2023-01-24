@@ -13,7 +13,7 @@ classifiers = [
  
 setup(
   name='fasteda',
-  version='1.0.0',
+  version='1.0.1',
   description='A module to get a quick overview of a DataFrame',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  
@@ -22,5 +22,5 @@ setup(
   classifiers=classifiers,
   keywords=['python', 'data', 'dataframe', 'data analysis', 'eda', 'pandas', 'numpy'], 
   packages=find_packages(),
-  install_requires=['pandas', 'numpy', 'matplotlib', 'seaborn', 'missingno', 'colorama'] 
+  install_requires=['pandas', 'numpy', 'scipy', 'matplotlib', 'seaborn', 'missingno', 'colorama'] 
 )
